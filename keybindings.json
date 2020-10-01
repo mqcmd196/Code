@@ -1,0 +1,47 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "alt+j",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "left",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "right",
+        "command": "-cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+i",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "up",
+        "command": "-cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "down",
+        "command": "-cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.focus"
+    }
+]
